@@ -20,11 +20,11 @@ export function HeroSection() {
 
           <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
-              href="tel:0660053767"
+              href="tel:0759322533"
               className="inline-flex items-center justify-center gap-3 rounded-sm bg-primary px-6 py-4 text-base font-semibold text-primary-foreground transition-opacity hover:opacity-90"
             >
               <Phone className="h-5 w-5" aria-hidden="true" />
-              Цілодобова консультація: 0660053767
+              Цілодобова консультація: 0759322533
             </a>
             <a
               href="#services"

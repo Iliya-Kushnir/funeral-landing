@@ -10,11 +10,11 @@ export function SiteFooter() {
               Ми поруч у найважчу хвилину — телефонуйте будь-коли
             </h2>
             <a
-              href="tel:0660053767"
+              href="tel:0759322533"
               className="inline-flex w-fit items-center gap-3 rounded-sm bg-primary px-6 py-4 text-base font-semibold text-primary-foreground transition-opacity hover:opacity-90"
             >
               <Phone className="h-5 w-5" aria-hidden="true" />
-              Зателефонувати: 0660053767
+              Зателефонувати: 0759322533
             </a>
             <ul className="flex flex-col gap-4 text-sm">
               <li className="flex items-start gap-3">
@@ -54,7 +54,7 @@ export function SiteFooter() {
         </div>
 
         <div className="mt-12 flex flex-col gap-2 border-t border-border pt-6 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Ритуальна служба «Пам&apos;ять», м. Калуш</p>
+          <p>© {new Date().getFullYear()} Ритуальна служба «Вічність», м. Калуш</p>
           <p>Понад 10 років досвіду · Працюємо 24/7</p>
         </div>
       </div>

@@ -25,11 +25,11 @@ export function SiteHeader() {
             Працюємо 24/7
           </span>
           <a
-            href="tel:0660053767"
+            href="tel:0759322533"
             className="inline-flex items-center gap-2 rounded-sm bg-primary px-4 py-2.5 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
           >
             <Phone className="h-4 w-4" aria-hidden="true" />
-            0660053767
+            0759322533
           </a>
         </div>
       </div>
