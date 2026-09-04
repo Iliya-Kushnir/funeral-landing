@@ -5,26 +5,35 @@ import './globals.css'
 const _inter = Inter({ subsets: ['latin', 'cyrillic'] })
 
 export const metadata: Metadata = {
-  title: 'Ритуальні послуги у м. Калуш — організація похорону 24/7',
+  metadataBase: new URL('https://www.vichnist-kalush.com.ua'), // Впиши свой домен
+  title: 'Ритуальна служба Вічність | Організація похорону у м. Калуш 24/7',
   description:
-    'Повний спектр ритуальних послуг у м. Калуш: перевезення померлих, підготовка тіла, домовини, хрести, оградки, благоустрій могил. Понад 10 років досвіду. Працюємо 24/7. Тел. 0759322533.',
-  generator: 'v0.app',
+    'Ритуальна служба Вічність у м. Калуш: повний спектр послуг, перевезення померлих, підготовка тіла, домовини, хрести. Працюємо цілодобово 24/7. Тел. 0759322533.',
+  keywords: ['Ритуальна служба Вічність', 'Ритуальні послуги Калуш', 'організація похорону Калуш', 'похоронне бюро Калуш', 'Вічність Калуш'],
+  openGraph: {
+    title: 'Ритуальна служба Вічність | Калуш',
+    description: 'Організація похорону у м. Калуш 24/7. Повний спектр ритуальних послуг.',
+    url: 'https://www.vichnist-kalush.com.ua',
+    siteName: 'Ритуальна служба Вічність',
+    locale: 'uk_UA',
+    type: 'website',
+  },
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/favicon.ico',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/favicon.ico',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/favicon.ico',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/favicon.ico',
   },
 }
 
